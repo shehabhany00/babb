@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title>Personaal Data</title>
+</head>
+
+<body>
+    <form>
+        <fieldset style="background-color:crimson;">
+            <legend style="color:black;background-color: blue;">Personaal Data</legend>
+            <fieldset style="background-color: chartreuse;">
+                <legend style="color:black;background-color: blue;">Your Name</legend>
+                <table>
+                    <tr>
+                        <td><label for="fn">Frist Name :</label></td>
+                        <td><input placeholder="enter ur Frist Name" id="fn" type="text" name="fn" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="sn"> Second Name :</label>
+                        </td>
+                        <td>
+                            <input placeholder="enter ur Second Name" type="text" name="sn" id="sn">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset><br /><br /><br />
+            <table>
+                <tr>
+                    <td><label for="phone"> Your Phone :</label></td>
+                    <td><input placeholder="enter ur phone" type="tel" name="phone" id="phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="mail">E-mail :</label></td>
+                    <td><input placeholder="enter ur E-mail" type="email" name="mail" id="mail"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password :</label></td>
+                    <td><input placeholder="enter ur password" type="password" name="pass" id="pass"></td>
+                </tr>
+                <tr>
+                    <td><label for="re-pass">re-password :</label></td>
+                    <td><input placeholder="rewrite ur password" type="password" name="re-pass" id="re-pass"></td>
+                </tr>
+            </table>
+            <label>choose ur gender</label><br />
+            <input type="radio" name="gender" value="male">male<br />
+            <input type="radio" name="gender" value="female">female<br /><br />
+            <input type="checkbox" name="status" value="student">student<br />
+            <input type="checkbox" name="status" value="graduaed">graduaed<br /><br /><br />
+            <select name="select">
+                <optgroup label="Group 1">
+                    <option value="value 1">car 1</option>
+
+                </optgroup>
+                <optgroup label="Group 2">
+                <option value="value 2">car 2</option>
+                <option value="value 3">car 3</option>
+                </optgroup>
+
+                <optgroup label="Group 3" disabled>
+                <option value="value 4">car 4</option>
+                <option value="value 5">car 5</option>
+                <option value="value 6">car 6</option>
+                </optgroup>
+
+            </select><br/>
+           
+            <button style="background-color: dimgray;" >submit</button>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
